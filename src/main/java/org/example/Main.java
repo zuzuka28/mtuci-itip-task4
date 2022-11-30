@@ -142,7 +142,6 @@ public class Main {
 
         double normTimeStart = 9.0;
         double normTimeEnd = 17.0;
-        double result = 0;
 
         return "$" + (
                 Math.max(Math.min(endTime, normTimeEnd) - Math.max(startTime, normTimeStart), 0)*pay +
